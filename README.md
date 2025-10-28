@@ -53,3 +53,17 @@ MUDE A FONTE (Source): Troque Anywhere para My IP. O AWS preencherá com o seu I
 Insight de Segurança: Nunca deixar a porta 22 aberta para Anywhere (0.0.0.0/0) em produção, pois isso permite que qualquer pessoa na internet tente forçar o acesso ao meu servidor."
 
 6. Hands On: Clique em Launch instance.
+
+
+// Gerenciando o Ciclo de Vida 
+
+Ação: Clique com o botão direito na sua instância e pratique:
+* Stop (Interromper): Pare a instância.
+✍️ NOTE: "Ação: STOP. A instância está 'desligada'. O IP Público que eu estava usando (SEU_IP_PUBLICO) sumiu.
+  Insight de Custo: A cobrança pela instância parou, mas a cobrança pelo disco (Volume EBS) continua."
+  
+* Start (Iniciar): Inicie a instância novamente.
+  ✍️ NOTE: "Ação: START. A instância está 'ligada' novamente. Verifiquei na aba 'Details' e ela recebeu um novo IP Público. A cobrança pela instância foi retomada."
+  
+* Reboot (Reiniciar): Reinicie a instância.
+✍️ NOTE: "Ação: REBOOT. A instância apenas reiniciou o SO. O IP Público não mudou. A cobrança não parou."
