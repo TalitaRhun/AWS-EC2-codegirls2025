@@ -2,6 +2,8 @@
 Anotações e alguns insights que foi adquirido sobre Elastic Compute Cloud - EC2 
 
 Escolher a Instância certa não se trata apenas de selecionar um tipo aleatório e sim entender quais são as necessidades da aplicação e utilizar os recursos da nuvem de forma inteligente alcançando eficiência operacial e economizando custos, sempre com muita atenção à segurança.
+O Amazon EC2, nos fornece a capacidade de computação na cloud da AWS.
+Pode definir a segurança básica utilizando firewall incorporada do aws, utilizar grupo de segurança, protocolo, porta, IPs de origem que permitem e negam o acesso às instâncias EC2.
 
 // Anotações sobre como criar uma instância
 
